@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 """Module to annotate a function's parameters.
 In Python, Iterable and Sequence are two different abstract base classes
