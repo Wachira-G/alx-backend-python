@@ -3,19 +3,9 @@
 """
 import requests
 from functools import wraps
-from typing import (
-    Mapping,
-    Sequence,
-    Any,
-    Dict,
-    Callable,
-)
+from typing import Mapping, Sequence, Any, Dict, Callable
 
-__all__ = [
-    "access_nested_map",
-    "get_json",
-    "memoize",
-]
+__all__ = ["access_nested_map", "get_json", "memoize"]
 
 
 def access_nested_map(nested_map: Mapping, path: Sequence) -> Any:
